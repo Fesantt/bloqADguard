@@ -1,0 +1,197 @@
+! Title: Lista Avançada de Bloqueio - Marketplaces & E-commerce BR
+! Description: Bloqueia lojas online, marketplaces, sites de cupons/promoções e CDNs de lojas
+! Compatível com AdGuard (Home, DNS, App e Extensão)
+! Last modified: 2026-10-20
+! Obs: ||dominio^ já bloqueia todos os subdomínios (ex.: ||shein.com^ cobre m.shein.com)
+! =======================================================
+
+! --- Grandes Varejistas e Marketplaces ---
+||mercadolivre.com.br^
+||mercadolivre.com^
+||mercadolibre.com^
+||mercadolibre.com.br^
+||shopee.com.br^
+||shopee.com^
+||amazon.com.br^
+||amazon.com^
+||magazineluiza.com.br^
+||magalu.com^
+||magalu.com.br^
+||magazinevoce.com.br^
+||casasbahia.com.br^
+||americanas.com.br^
+||americanas.com^
+||extra.com.br^
+||pontofrio.com.br^
+||ponto.com.br^
+||carrefour.com.br^
+||fastshop.com.br^
+||submarino.com.br^
+||shoptime.com.br^
+||marabraz.com.br^
+||leroymerlin.com.br^
+||cec.com.br^
+||havan.com.br^
+||colombo.com.br^
+||efacil.com.br^
+||ricardoeletro.com.br^
+||girafa.com.br^
+||novomundo.com.br^
+||webcontinental.com.br^
+||polishop.com.br^
+||lojasmm.com^
+||pernambucanas.com.br^
+||ebay.com^
+||etsy.com^
+||walmart.com^
+
+! --- Importação / Cross-border ---
+||aliexpress.com^
+||aliexpress.us^
+||aliexpress.ru^
+||temu.com^
+||shein.com^
+||shein.com.br^
+||wish.com^
+||joom.com^
+||tmall.com^
+||taobao.com^
+||banggood.com^
+||gearbest.com^
+||dhgate.com^
+||lightinthebox.com^
+||alibaba.com^
+||1688.com^
+
+! --- Moda, Calçados e Vestuário ---
+||dafiti.com.br^
+||netshoes.com.br^
+||zattini.com.br^
+||kanui.com.br^
+||posthaus.com.br^
+||renner.com.br^
+||lojasrenner.com.br^
+||c-and-a.com.br^
+||cea.com.br^
+||riachuelo.com.br^
+||marisa.com.br^
+||hering.com.br^
+||youcom.com.br^
+||torra.com.br^
+||amaro.com^
+||farmrio.com.br^
+||animale.com.br^
+||arezzo.com.br^
+||schutz.com.br^
+||usereserva.com^
+||insiderstore.com.br^
+||zara.com^
+||hm.com^
+||centauro.com.br^
+||decathlon.com.br^
+||nike.com.br^
+||adidas.com.br^
+||mizuno.com.br^
+||olympikus.com.br^
+||vans.com.br^
+||gocase.com.br^
+
+! --- Eletrônicos, Informática e Games ---
+||kabum.com.br^
+||kabum.com^
+||pichau.com.br^
+||terabyteshop.com.br^
+||gkmagazine.com.br^
+||kalunga.com.br^
+||dell.com.br^
+||brastemp.com.br^
+||consul.com.br^
+||loja.electrolux.com.br^
+||nuuvem.com^
+
+! --- Usados, Classificados e Brechós ---
+||olx.com.br^
+||enjoei.com.br^
+||trocafone.com^
+||trocafone.com.br^
+||repassea.com.br^
+||vendergas.com.br^
+||estantevirtual.com.br^
+
+! --- Comparadores de Preço, Cupons e Cashback ---
+||zoom.com.br^
+||buscape.com.br^
+||promobit.com.br^
+||pelando.com.br^
+||meliuz.com.br^
+||cuponomia.com.br^
+||cuponation.com.br^
+||gatry.com^
+
+! --- Farmácias, Beleza e Cosméticos ---
+||drogasil.com.br^
+||drogaraia.com.br^
+||paguemenos.com.br^
+||ultrafarma.com.br^
+||drogal.com.br^
+||drogariasaopaulo.com.br^
+||drogariaspacheco.com.br^
+||panvel.com^
+||extrafarma.com.br^
+||onofre.com.br^
+||belezanaweb.com.br^
+||epocacosmeticos.com.br^
+||sephora.com.br^
+||boticario.com.br^
+||eudora.com.br^
+||quemdisseberenice.com.br^
+
+! --- Alimentos, Bebidas e Atacado ---
+||sitemercado.com.br^
+||impex.com.br^
+||paodeacucar.com^
+||clubeextra.com.br^
+||atacadao.com.br^
+||assai.com.br^
+||samsclub.com.br^
+||evino.com.br^
+||wine.com.br^
+
+! --- Casa, Decoração e Construção ---
+||tokstok.com.br^
+||etna.com.br^
+||madesa.com^
+||mobly.com.br^
+||madeiramadeira.com.br^
+||westwing.com.br^
+||camicado.com.br^
+||casaevideo.com.br^
+||telhanorte.com.br^
+||obramax.com.br^
+
+! --- Pets, Brinquedos e Infantil ---
+||petz.com.br^
+||cobasi.com.br^
+||petlove.com.br^
+||rihappy.com.br^
+||pbkids.com.br^
+
+! --- CDNs e domínios de app das lojas ---
+! (bloqueiam imagens/app mesmo quando o domínio principal escapa)
+||mlstatic.com^
+||mlcdn.com.br^
+||shopeemobile.com^
+||susercontent.com^
+||ltwebstatic.com^
+||kwcdn.com^
+||alicdn.com^
+||aliexpress-media.com^
+
+! --- OPCIONAL: delivery de comida (descomente se quiser) ---
+! ||ifood.com.br^
+! ||rappi.com.br^
+! ||zedelivery.com.br^
+
+! --- OPCIONAL: carteiras/pagamentos (CUIDADO: pode quebrar pagamentos em outros sites) ---
+! ||mercadopago.com.br^
+! ||mercadopago.com^
