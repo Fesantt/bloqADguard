@@ -1,0 +1,148 @@
+! Title: Lista de Bloqueio - Sites de Notícias BR
+! Description: Bloqueia portais, jornais, revistas e sites de notícias brasileiros
+! Compatível com AdGuard (Home, DNS, App e Extensão)
+! Last modified: 2026-10-20
+! Obs: ||dominio^ já bloqueia todos os subdomínios.
+! UOL e Globo são bloqueados por subdomínio para NÃO quebrar
+! e-mail UOL, PagSeguro/PagBank, Globoplay e conta Globo.
+! =======================================================
+
+! --- Grandes Portais ---
+||g1.globo.com^
+||www.globo.com^
+||oglobo.globo.com^
+||extra.globo.com^
+||www.uol.com.br^
+||noticias.uol.com.br^
+||economia.uol.com.br^
+||tab.uol.com.br^
+||www1.uol.com.br^
+||terra.com.br^
+||r7.com^
+||ig.com.br^
+||br.noticias.yahoo.com^
+||br.financas.yahoo.com^
+
+! --- Jornais Nacionais ---
+||folha.uol.com.br^
+||estadao.com.br^
+||correiobraziliense.com.br^
+||gazetadopovo.com.br^
+||jb.com.br^
+||valor.globo.com^
+||metropoles.com^
+||poder360.com.br^
+||nexojornal.com.br^
+
+! --- TV, Rádio e Canais de Notícia ---
+||cnnbrasil.com.br^
+||band.uol.com.br^
+||band.com.br^
+||bandnewsfm.band.uol.com.br^
+||sbtnews.sbt.com.br^
+||jovempan.com.br^
+||recordtv.r7.com^
+||agenciabrasil.ebc.com.br^
+||radioagencianacional.ebc.com.br^
+
+! --- Revistas e Sites de Análise ---
+||veja.abril.com.br^
+||exame.com^
+||istoe.com.br^
+||istoedinheiro.com.br^
+||epoca.globo.com^
+||epocanegocios.globo.com^
+||cartacapital.com.br^
+||piaui.folha.uol.com.br^
+||revistaoeste.com^
+||oantagonista.com.br^
+||crusoe.com.br^
+||revistaforum.com.br^
+||brasil247.com^
+||brasildefato.com.br^
+||diariodocentrodomundo.com.br^
+||intercept.com.br^
+||apublica.org^
+||aosfatos.org^
+||conexaopolitica.com.br^
+||terrabrasilnoticias.com^
+
+! --- Economia e Mercado ---
+||infomoney.com.br^
+||moneytimes.com.br^
+||investing.com^
+||br.investing.com^
+||seudinheiro.com^
+||einvestidor.estadao.com.br^
+||braziljournal.com^
+||neofeed.com.br^
+
+! --- Jornais Regionais ---
+||em.com.br^
+||otempo.com.br^
+||gauchazh.clicrbs.com.br^
+||correiodopovo.com.br^
+||nsctotal.com.br^
+||atarde.com.br^
+||correio24horas.com.br^
+||opovo.com.br^
+||diariodonordeste.verdesmares.com.br^
+||diariodepernambuco.com.br^
+||ne10.uol.com.br^
+||jc.uol.com.br^
+||diariodoparana.com.br^
+||bemparana.com.br^
+||odia.ig.com.br^
+||campograndenews.com.br^
+||oliberal.com^
+||acritica.com^
+||d24am.com^
+||jornaldebrasilia.com.br^
+||tribunaonline.com.br^
+||agazeta.com.br^
+
+! --- Esportes ---
+||ge.globo.com^
+||lance.com.br^
+||espn.com.br^
+||gazetaesportiva.com^
+||esporte.uol.com.br^
+||placar.com.br^
+||meutimao.com.br^
+||netflu.com.br^
+
+! --- Tecnologia ---
+||tecmundo.com.br^
+||olhardigital.com.br^
+||tecnoblog.net^
+||canaltech.com.br^
+||showmetech.com.br^
+||tudocelular.com^
+||adrenaline.com.br^
+||macmagazine.com.br^
+
+! --- Entretenimento e Celebridades ---
+||gshow.globo.com^
+||quem.globo.com^
+||noticiasdatv.uol.com.br^
+||natelinha.uol.com.br^
+||purepeople.com.br^
+||ofuxico.com.br^
+||contigo.com.br^
+||caras.com.br^
+||omelete.com.br^
+||jovemnerd.com.br^
+
+! --- OPCIONAL: agregadores (descomente se quiser) ---
+! Bloquear msn.com pode afetar widgets do Windows e a página inicial do Edge.
+! ||msn.com^
+! ||news.google.com^
+! ||flipboard.com^
+! ||squid.app^
+
+! --- OPCIONAL: bloquear Globo/UOL inteiros ---
+! CUIDADO: derruba Globoplay, conta Globo, e-mail UOL e PagSeguro/PagBank.
+! ||globo.com^
+! ||glbimg.com^
+! ||uol.com.br^
+! ||uol.com^
