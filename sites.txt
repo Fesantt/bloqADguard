@@ -1,0 +1,178 @@
+! Title: Lista de Bloqueio - Ambiente de Trabalho BR
+! Description: Bloqueia letras, streaming, redes sociais, jogos, apostas e outros sites de distração
+! Compatível com AdGuard (Home, DNS, App e Extensão)
+! Last modified: 2026-10-20
+! Obs: Nenhum domínio do Google é bloqueado (Gmail, Drive, Meet, Docs,
+! Agenda, Pesquisa, Maps etc. seguem funcionando). YouTube fica na seção OPCIONAL.
+! =======================================================
+
+! --- Letras e Cifras ---
+||letras.mus.br^
+||letras.com^
+||vagalume.com.br^
+||cifraclub.com.br^
+||cifraclub.com^
+||cifras.com.br^
+||ouvirmusica.com.br^
+||kboing.com.br^
+||musixmatch.com^
+||genius.com^
+||azlyrics.com^
+||lyrics.com^
+||songsterr.com^
+||ultimate-guitar.com^
+
+! --- Redes Sociais ---
+! Equipes de marketing/atendimento podem precisar destas: avalie antes.
+||facebook.com^
+||messenger.com^
+||instagram.com^
+||cdninstagram.com^
+||threads.net^
+||threads.com^
+||tiktok.com^
+||tiktokv.com^
+||tiktokcdn.com^
+||tiktokcdn-us.com^
+||musical.ly^
+||kwai.com^
+||kwai.net^
+||twitter.com^
+||x.com^
+||twimg.com^
+||bsky.app^
+||reddit.com^
+||redd.it^
+||redditmedia.com^
+||redditstatic.com^
+||pinterest.com^
+||pinterest.com.br^
+||pinimg.com^
+||tumblr.com^
+||snapchat.com^
+||9gag.com^
+||ifunny.co^
+
+! --- Streaming de Vídeo ---
+||netflix.com^
+||nflxvideo.net^
+||nflximg.net^
+||nflxext.com^
+||nflxso.net^
+||primevideo.com^
+||aiv-cdn.net^
+||disneyplus.com^
+||disney-plus.net^
+||bamgrid.com^
+||max.com^
+||hbomax.com^
+||globoplay.globo.com^
+||paramountplus.com^
+||crunchyroll.com^
+||pluto.tv^
+||mubi.com^
+||tv.apple.com^
+||twitch.tv^
+||ttvnw.net^
+||jtvnw.net^
+||kick.com^
+
+! --- Jogos ---
+||roblox.com^
+||rbxcdn.com^
+||epicgames.com^
+||fortnite.com^
+||steampowered.com^
+||steamcommunity.com^
+||steamstatic.com^
+||riotgames.com^
+||leagueoflegends.com^
+||playvalorant.com^
+||minecraft.net^
+||garena.com^
+||ea.com^
+||xbox.com^
+||playstation.com^
+||nintendo.com^
+||poki.com^
+||poki.com.br^
+||crazygames.com^
+||crazygames.com.br^
+||friv.com^
+||clickjogos.com.br^
+||jogos360.com.br^
+||miniclip.com^
+||y8.com^
+||coolmathgames.com^
+||gartic.com.br^
+||gartic.io^
+||skribbl.io^
+||chess.com^
+||lichess.org^
+
+! --- Apostas e Cassinos ---
+! ||bet.br^ bloqueia TODAS as bets regulamentadas no Brasil (domínio .bet.br obrigatório)
+||bet.br^
+||bet365.com^
+||betano.com^
+||sportingbet.com^
+||betfair.com^
+||pixbet.com^
+||superbet.com^
+||blaze.com^
+||stake.com^
+||1xbet.com^
+||pokerstars.com^
+
+! --- Namoro e Relacionamento ---
+||tinder.com^
+||gotinder.com^
+||badoo.com^
+||bumble.com^
+||happn.com^
+||grindr.com^
+||okcupid.com^
+||parperfeito.com.br^
+
+! --- Humor, Curiosidades e Passatempo ---
+||sensacionalista.com.br^
+||kibeloco.com.br^
+||buzzfeed.com^
+||hypeness.com.br^
+||megacurioso.com.br^
+||mdig.com.br^
+||imgur.com^
+
+! --- Horóscopo, Receitas e Estilo de Vida ---
+||personare.com.br^
+||joaobidu.com.br^
+||tudogostoso.com.br^
+||panelinha.com.br^
+
+! --- OPCIONAL: Streaming de Música (descomente se quiser) ---
+! Muita gente trabalha ouvindo música; por isso vem desligado.
+! ||spotify.com^
+! ||scdn.co^
+! ||spotifycdn.com^
+! ||deezer.com^
+! ||dzcdn.net^
+! ||soundcloud.com^
+! ||sndcdn.com^
+! ||palcomp3.com.br^
+! ||suamusica.com.br^
+
+! --- OPCIONAL: YouTube (descomente se quiser) ---
+! Não afeta Gmail/Drive/Meet. NÃO inclua googlevideo.com: pode
+! afetar a reprodução de vídeos dentro do Google Drive.
+! ||youtube.com^
+! ||youtu.be^
+! ||ytimg.com^
+! ||youtube-nocookie.com^
+
+! --- OPCIONAL: Mensageiros pessoais ---
+! ||discord.com^
+! ||discord.gg^
+! ||discordapp.com^
+! ||discordapp.net^
+! ||telegram.org^
+! ||t.me^
