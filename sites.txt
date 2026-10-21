@@ -148,6 +148,10 @@
 ||joaobidu.com.br^
 ||tudogostoso.com.br^
 ||panelinha.com.br^
+||oaltoacre.com^
+||3dejulhonoticias.com.br^
+||contilnetnoticias.com.br^
+||ac24horas.com^
 
 ! --- OPCIONAL: Streaming de Música (descomente se quiser) ---
 ! Muita gente trabalha ouvindo música; por isso vem desligado.
